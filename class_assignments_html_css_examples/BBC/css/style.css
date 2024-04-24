@@ -1,0 +1,231 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body  {
+
+ 
+
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Header */
+
+.welcome, .time {
+  font-size: xx-large;
+}
+
+.welcome {
+  color: rgb(66, 66, 66)
+}
+
+
+header {
+  background: black;
+  height: 50px;
+  color: white;
+}
+
+.sign, form {
+  width: 10%;
+  height: 50px;
+  padding-top: 15px;
+}
+
+.logo {
+  width: 10%;
+  height: 50px;
+}
+
+.logo,.sign {
+  border-right: 0.5px solid white;
+}
+
+nav * {
+  float: left;
+  text-align: center;
+
+}
+
+ul {
+  width: 65%;
+  height: 50px;
+  margin: 0px;
+  padding-left: 0px;
+
+}
+
+input {
+  width: 100%;
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  width: 10%;
+  height: 50px;
+  border-right: 0.5px solid white;
+  padding-left: 30px;
+  padding-top: 15px;
+  text-align: center;
+ 
+}
+
+
+/*Main*/
+
+.welcome {
+  float: left;
+  width: 80%;
+  padding-left: 5px;
+}
+
+.time {
+  float: right;
+  width: 20%;
+  color: darkgray;
+  padding-left: 60px;
+  margin-bottom: 15px;
+}
+
+
+
+.a1{
+  float:left;
+  height: 500px;
+  width: 48%;
+  color: white;
+  padding-left: 5px;
+  padding-top: 275px;
+  background-image: url("israel.webp") ;
+  background-size: 970px 493px;
+  background-repeat: no-repeat;
+  margin: 0px 5px 0px 5px;
+  font-size: x-large;
+ 
+}
+
+.a2,.a3,.a4,.a5 {
+  background-size: 480px 240px;
+  background-repeat: no-repeat;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.aclass h3  {
+  padding: 120px 10px 0px 5px;
+  font-size: x-large;
+}
+
+.a2 {
+  background-image: url("american.webp");
+
+}
+
+.a3 {
+  background-image: url("vaccine.webp");
+ 
+}
+
+.a4 {
+  background-image: url("gyms.webp");
+ 
+}
+
+.a5 {
+  background-image: url("singer.webp");
+ 
+}
+
+.aclass {
+  float:left;
+  width: 50%;
+  height: 500px;
+}
+
+.a2,.a3,.a4,.a5 {
+  width: 50%;
+  float:left;
+  height: 250px;
+}
+
+/*News Section*/
+
+.bclass h2{
+  font-size: xx-large;
+  color: rgb(66, 66, 66);
+  border-left: 5px solid red;
+  margin-left: 5px;
+}
+
+.bclass{
+  float:left;
+  width: 100%;
+  height: 500px;
+}
+
+.bclass > h2 {
+  float:left;
+  width: 100%;
+  padding-left: 5px;;
+}
+
+.b1,.b2,.b3 {
+  float:left;
+  width: 33.3333%;
+  padding-left: 5px;
+
+}
+
+.biden, .belerus, .trump {
+  height: 400px;
+  width: 650px;
+}
+
+h4 {
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span {
+  border-left: 3px solid red;
+  padding-left: 5px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

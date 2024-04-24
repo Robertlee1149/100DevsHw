@@ -1,0 +1,222 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/*header*/
+
+header {
+  float:left;
+  height:1780px;
+  width: 15%;
+  padding-top: 20px;
+}
+
+.join {
+  font-weight: bold;
+  color: orange;
+  font-size: 20px;
+}
+
+.join,.login {
+  float:left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  text-decoration: none;
+}
+
+.login {
+  color:gray;
+  font-size: 20px;
+}
+
+.tc {
+  float:left;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.form {
+  float: left;
+  padding-left: 15px;
+  width: 180px;
+}
+
+.search {
+  float:left;
+  width: 180px;
+  font-size: 25px;
+  padding-left: 5px;
+  border: none;
+  color: gray;
+  margin-top: 20px;
+}
+
+
+nav {
+  float:left;
+  height: 100%;
+}
+
+li {
+  
+  list-style-type: none;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: gray;
+}
+
+/*main*/
+
+main {
+  float:left;
+  width: 85%;
+  padding-top: 20px;
+}
+
+.mainsec1 {
+  float:left;
+  width: 60%;
+  margin-right: 20px;
+
+}
+
+
+.mainsec2 {
+  float:left;
+  width:30%;
+
+  
+}
+
+.mainsec2 h2 {
+  float:left;
+  font-size:28px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.sec2 {
+  float:left;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+
+.sec2 span {
+  float:left;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  float: left;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.amanda {
+  float:left;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.latest {
+  float:left;
+  width: 1390px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+article {
+  float: left;
+  width: 1390px;
+  height: 300px;
+  border-bottom: 1px solid lightgray;
+
+}
+
+
+.div1,.div2,.div3 {
+  float: left;
+  width: 33.3333%;
+  height: 200px;
+ 
+}
+
+.div5,.div6,.div7 {
+  float: left;
+  width: 33.3333%;
+  height: 200px;
+}
+
+.div8,.div9,.div10{
+  float: left;
+  width: 33.3333%;
+  height: 200px;
+}
+
+.snapspan1,.snapspan2,.span3,.span4,.span5,.span6 {
+  float:left;
+  width: 460px;
+}
+
+.h2snap,.compute,.roll {
+  font-size: 28px;
+  padding-right: 10px;
+}
+
+.snapp,.quant,.rollp {
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.circuit,.circuit,.rollimg {
+  padding-top: 20px;
+}
+
+.compute {
+  margin-top: 0px;
+}
+
+.tcplus {
+  padding-top: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

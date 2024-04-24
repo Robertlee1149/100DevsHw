@@ -1,0 +1,61 @@
+body > section {
+border: 5px solid green;
+background: lightblue;
+padding: 20px 20px 20px 20px;
+margin: 20px 20px 20px 20px;
+height: 600px;
+width: 600px;
+}
+
+h1 {
+font-style: italic;
+font-weight: 900;
+text-align: center;
+color: white;
+}
+
+h2 {
+font-size: 700;
+font-weight: bold;
+color: white;
+}
+
+img {
+float: right;
+margin: 0 0 1em 1em;
+height: 250px;
+width: 200px;
+
+}
+
+ul {
+    text-align: center;
+    font-size: 400;
+    font-weight: bold;
+
+}
+
+li {
+    display: inline-block;
+ 
+
+}
+
+a {
+    color: green;
+  
+}
+
+p {
+    text-align: left;
+    color: white;
+    font-size: large;
+}
+
+html {
+    background: lightblue;
+}
+
+footer {
+    clear: both;
+}

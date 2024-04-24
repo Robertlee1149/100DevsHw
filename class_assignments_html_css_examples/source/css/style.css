@@ -1,0 +1,274 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  float:left;
+  width: 100%;
+  height: 75px;
+}
+
+.source {
+  float:left;
+  width:15%;
+  color: rgba(5, 18, 55, 0.8);
+  margin-top: 5px;
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+nav {
+  float:left;
+  width: 70%;
+}
+
+.btndiv {
+  float: left;
+  width: 15%;
+  height: 75px;
+}
+
+.btn1{
+  float: left;
+  width: 50%;
+  height: 40px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  background:  rgba(5, 18, 55, 0.8);
+}
+
+ul {
+  float:left;
+  width: 50%;
+  margin-left: 300px;
+
+}
+
+li {
+  float:left;
+  width:25%;
+  list-style-type: none;
+}
+
+.headera {
+  float:left;
+  text-decoration: none;
+  color: rgba(5, 18, 55, 0.8);
+}
+
+/*main sec*/
+.mainsec {
+  width: 100%;
+  float:left;
+  height: 1080px;
+}
+
+.mainsec1,.mainsec2{
+  float:left;
+  width: 50%;
+  height: 700px;
+}
+
+.mainsec1{
+  padding-left: 75px;
+}
+
+.mainsec2 {
+  background: lightgray;
+}
+
+h4,h1,.mainspan {
+  float:left;
+  width: 100%;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+h1{
+  font-size: 50px;
+  padding-right: 300px;
+  color: rgba(5, 18, 55, 0.8);
+}
+
+
+form {
+  float:left;
+  width: 300px;
+  height: 40px;
+}
+
+.btn2 {
+  float:left;
+  width: 116.25px;
+  height: 40px;
+  color: white;
+  background:  rgba(5, 18, 55, 0.8);
+}
+
+input {
+  float:left;
+  width: 300px;
+  height: 40px;
+}
+
+.mainspan {
+  float:left;
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 300px;
+  font-size: 20px;
+  color: rgba(5, 18, 55, 0.8);
+}
+
+.sec {
+  float:left;
+  width: 100%;
+  padding:40px 75px 0px 75px;
+
+}
+
+.sec1,.sec2,.sec3,.sec4 {
+  float:left;
+  width: 25%;
+  height: 250px;
+  padding-right: 75px;
+}
+
+.img1,.img2,.img3,.img4 {
+  float:left;
+  width: 100%;
+}
+
+h3, h3 + span {
+  float:left;
+  width: 100%;
+  color: rgba(5, 18, 55, 0.8);
+}
+
+.first,.second,.third,.fourth {
+  float:left;
+  width: 100%;
+  font-weight: bolder;
+  padding-top: 10px;
+  text-decoration: none;
+  color: rgba(5, 18, 55, 0.8);
+
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    border-bottom: 1px solid lightslategray;
+    width: 100%;
+
+  }
+
+  .mainsec{
+    height: 900px;
+  }
+
+  .source {
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .mainsec1{
+
+    width: 100%;
+    height: 500px;
+    padding-left: 10px;
+  }
+
+  .mainsec2 {
+    width: 425px;
+    height: 250px;
+  }
+
+  h1 {
+    padding-right: 0px;
+  }
+
+  form {
+   
+    width: 425px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 370px;
+  }
+
+  .btn2 {
+    width: 370px;
+  }
+
+  .mainspan {
+    padding-right: 5px;
+  }
+
+  .headera {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  .btndiv {
+    display: none;
+  }
+
+  .btn1{
+    display: none;
+  }
+
+  ul {
+    display: none;
+  }
+
+  li {
+    display: none;
+  }
+
+  .sec {
+    display: none;
+  }
+
+
+}
+  
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

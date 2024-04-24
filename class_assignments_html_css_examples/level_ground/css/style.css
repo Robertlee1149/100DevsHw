@@ -1,0 +1,364 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+li {
+  list-style-type: none;
+  width: 70px;
+  float:left;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(245, 250, 255, 0.8);
+}
+
+.classes,.hireus {
+  font-size: 20px;
+}
+
+.headernav,.donate {
+  float:left;
+  width: 25%;
+
+}
+.mainheader {
+  background: rgba(61, 84, 108, 0.8);
+  float:left;
+  width: 100%;
+  height: 150px;
+}
+
+.logo {
+  float:left;
+  width:50%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btndonate {
+  float:right;
+  width:80px;
+  height:40px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: rgba(61, 84, 108, 0.8);
+}
+
+.mainsection{
+  background: rgba(61, 84, 108, 0.8);
+  width: 100%;
+  height: 600px;
+  float:left;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(245, 250, 255, 0.8);
+  font-size: 75px;
+  width:100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  float:left;
+}
+
+.video {
+  float:left;
+  width: 100%;
+  height: 100px;
+}
+
+.watch {
+  float: left;
+  text-align: left;
+  width: 55%;
+  height: 50px;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-top: 20px;
+}
+.material-symbols-outlined1 {
+  padding-top: 20px;
+  padding-right: 5px;
+  text-align: right;
+  float:left;
+  width: 45%;
+  color:rgba(245, 250, 255, 0.8);
+}
+
+.lgp {
+  text-align: center;
+  font-size: 25px;
+  float:left;
+  width:100%;
+  padding: 0px 230px 0px 230px;
+  color: rgba(245, 250, 255, 0.8);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+header {
+  float:left;
+  width: 100%;
+}
+
+.why,.vol {
+  float:left;
+  width: 100%;
+  height: 400px;
+  padding-top:70px;
+
+}
+
+.h2why,.h2vol {
+  float:left;
+  width:100%;
+  text-align:center;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.pwhy,.pvol {
+  float:left;
+  width:100%;
+  text-align:center;
+  padding: 0px 425px;
+  font-size: 23px;
+
+}
+
+.visit {
+  float:left;
+  width: 100%;
+  height: 750px;
+  background: lightgray;
+}
+
+.visitthegym {
+  float:left;
+  width: 50%;
+}
+
+.gym {
+  width:100%;
+  float:left;grid-template-columns: ;
+}
+
+.visityou {
+  float:left;
+  width: 50%;
+}
+
+.background1,.background2 {
+  float:left;
+  height:250px;
+  width: 400px;
+  background: rgba(56, 69, 88, 0.8) ;
+}
+
+.background1 {
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+.background2 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.h3gym,.h3you,.pgym,.pyou {
+  float:left;
+  width: 100%;
+  text-align: center;
+}
+
+.h3gym {
+  padding-left:250px;
+  
+}
+
+.pgym {
+ padding-left:300px;
+ padding-right: 50px;
+}
+
+.btnclasses {
+  float:left;
+  margin-left: 480px;
+}
+
+
+.h3you {
+padding-right: 225px;
+
+}
+
+.pyou {
+  padding-right: 300px;
+  padding-left: 60px;
+}
+
+.btnus {
+  float:left;
+  margin-left: 260px;
+}
+
+.bottomsec{
+  float:left;
+  width:100%;
+  height: 250px;
+  background: rgba(0, 0, 22, 0.88);
+}
+
+
+
+.space {
+  float:left;
+  width: 25px;
+  height: 250px;
+}
+
+.space2{
+  float:right;
+  width: 25px;
+  height: 250px;
+}
+
+
+.social {
+  float:left;
+  width: 15%;
+  height:200px;
+}
+
+.material-symbols-outlined{
+  float:left;
+  width: 40px;
+  color:white;
+  padding-left: 10px;
+  padding-top: 20px;
+
+}
+
+.site,.contribute {
+  float:left;
+  color:lightgray;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+
+.nav1,.nav2{
+  float:left;
+  width: 100%;
+}
+
+.ul1,.ul2 {
+  float:left;
+  width:100%;
+  padding-left:12px;
+  margin:0px
+}
+
+.bottoma {
+  color:white;
+}
+
+.levelg {
+  width:80%;
+  height: 200px;
+  float:left;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.levelspan {
+  float:left;
+  width: 100%;
+  color:white;
+  padding-top: 20px;
+  padding-right: 48px;
+}
+
+.mma {
+  float:left;
+  color: white;
+  width: 100%;
+}
+
+.address1,.address2,.address3,.address4 {
+  float:left;
+  color:white;
+  width: 100%;
+}
+
+.address1 {
+  padding-right: 17px;
+}
+
+.address2 {
+  padding-right: 49px;
+}
+.address3 {
+  padding-right: 82px;
+}
+.address4 {
+  padding-left: 25px;
+}
+
+footer {
+  float:left;
+  width: 97%;
+  height: 50px;
+  border-top: 1px solid lightgray;
+
+}
+
+footer span {
+  float:left;
+  width: 100%;
+  text-align: left;
+  color:white;
+  padding-top: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

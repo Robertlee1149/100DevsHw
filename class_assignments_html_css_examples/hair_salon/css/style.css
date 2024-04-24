@@ -1,0 +1,166 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.div1 {
+  flex-basis: 10%;
+}
+
+ul {
+  display:flex;
+  flex-direction: row;
+  flex-basis: 70%;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: 70%;
+}
+
+.cart,.search {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  
+}
+
+form {
+  padding-top:1rem;
+  flex-basis: 20%;
+}
+
+.section1{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  padding:0 10rem ;
+  height:80rem;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.services {
+  background: black;
+  color:white;
+  height: 3rem;
+}
+
+.section2{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-top: 15rem;
+
+
+}
+
+.div2{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5rem;
+  background: black;
+  width: 20%;
+  flex-basis: 20%;
+  padding-left: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.div2 * {
+  color: white;
+}
+
+.book {
+  color:black;
+  height: 3rem;
+  background:white;
+}
+
+.div3,.div4,.div5 {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.section3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height:30rem;
+  background:lightgray;
+
+}
+
+.div6 {
+  display:flex;
+  flex-direction:column;
+  width: 30%;
+  padding-top: 5rem;
+
+}
+
+.read {
+  background: black;
+  color:white;
+  height: 3rem;
+}
+
+.div7{
+  width: 30%;
+  padding-top: 5rem;
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
